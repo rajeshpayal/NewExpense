@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "react-toastify/dist/ReactToastify.css";
+import "./components/Expenses.css";
+import Card from "./components/Card";
+
+import Expenses from "./components/Expenses";
+import Chart from "./components/Chart/Chart";
 
 function App() {
   return (
-    <div className="App">
-    
-    </div>
+    <Card className="expenses">
+      <Expenses />
+    </Card>
   );
 }
 
